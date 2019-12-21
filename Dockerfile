@@ -1,6 +1,6 @@
 FROM tomcat:9.0.30
 
-ADD **/*.war /opt/tomcat/webapps/
+ADD **/*.war /usr/local/tomcat/webapps/
 
 EXPOSE 8090
 
